@@ -91,13 +91,24 @@
       <section>
         <p>Join Ad Pro</p>
         <p>The members-only community for design professionals</p>
-        <p>Join Now</p>
+        <button>Join Now</button>
       </section>
 
       <section>
         <p>Subscribe</p>
         <p>Get the weekly newsletter</p>
-        <p>Email</p>
+        <form action="./submit-data" method="get">
+          <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </p>
+          <p>
+            <button>Sign Me Up!</button>
+          </p>
       </section>
 
       <section>
