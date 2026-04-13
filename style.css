@@ -8,6 +8,7 @@ html {
   color: #2a2a2a;
   line-height: 1.4;
   font-size: 16pt;
+  font-family: "Albert Sans", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -31,7 +32,21 @@ nav {
 
 main {
   width: 80vw;
+  margin: 3rem;
+  background-img: url("https://media.architecturaldigest.com/photos/5efe5b65a45de055a3e2dea9/16:9/w_2560%2Cc_limit/AD0720_THEN_AND_NOW_BEATON_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
+
+h1 {
+  font-size: 6rem;
+  font-family: "Chiron Sung HK", Times New Roman, serif;
+  margin: -3rem 1rem 1rem 1rem;
+}
+
+
 
 
 
