@@ -46,6 +46,14 @@ h1 {
   margin: -3rem 1rem 1rem 1rem;
 }
 
+.background-image {
+  background-image: url("https://media.architecturaldigest.com/photos/5efe5b65a45de055a3e2dea9/16:9/w_2560%2Cc_limit/AD0720_THEN_AND_NOW_BEATON_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 
 
 
