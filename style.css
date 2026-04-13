@@ -1,15 +1,37 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-  color: #222;
+  color: #2a2a2a;
   line-height: 1.4;
   font-size: 16pt;
 }
 
+body {
+  margin: auto;
+}
 
+header {
+  width: 100vw;
+  height: auto;
+  background-color: #FFFBFA;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  color: #2a2a2a;
+}
+
+main {
+  width: 80vw;
+}
 
 
 
