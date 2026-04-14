@@ -32,6 +32,7 @@ nav {
 
 main {
   width: 80vw;
+  margin: auto;
 }
 
 h1 {
@@ -128,7 +129,7 @@ img {
   min-width: 15rem;
   max-width: 75%;
   min-height: auto;
-  max-height: auto;
+  max-height: 20rem;
   object-fit: cover;
   object-position: 50% 50%;
 }
