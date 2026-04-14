@@ -67,6 +67,17 @@ h2{
   font-weight: 700;
 }
 
+.intro {
+  font-size: 3rem;
+  margin: 2rem 1rem 1rem 1rem;
+}
+
+.main-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(2fr, 1fr));
+}
+
 
 
 
