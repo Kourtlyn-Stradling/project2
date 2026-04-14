@@ -76,6 +76,61 @@ h2{
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(2fr, 1fr));
+  grid-template-areas:
+    "one two"
+    "four three"
+    "five six"
+    "eight seven"
+    "nine ten"
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.ten {
+  grid-area: ten;
+}
+
+img {
+  min-width: 15rem;
+  max-width: 75%;
+  min-height: auto;
+  max-height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 
