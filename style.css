@@ -28,6 +28,7 @@ nav {
   justify-content: flex-end;
   gap: 1.5rem;
   color: #2a2a2a;
+  font-family: "Albert Sans", Helvetica, Arial, sans-serif;
 }
 
 main {
@@ -53,9 +54,9 @@ h1 {
 
 h3 {
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 1.5rem;
+  letter-spacing: 0.75rem;
   margin: 2rem 1rem 1rem 1rem;
   font-weight: 700;
 }
@@ -63,19 +64,20 @@ h3 {
 h2{
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
   font-size: 5rem;
-  margin: 1rem;
+  margin: 0.5rem 1rem 1rem 1rem;
   font-weight: 700;
 }
 
 .intro {
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 2rem 1rem 1rem 1rem;
 }
 
 .main-grid {
+  margin: 1rem;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(2fr, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(2fr, 1fr));
   grid-template-areas:
     "one two"
     "four three"
