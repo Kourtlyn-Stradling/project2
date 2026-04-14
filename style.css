@@ -57,7 +57,7 @@ h3 {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.75rem;
-  margin: 2rem 1rem 1rem 1rem;
+  margin: 1rem;
   font-weight: 700;
 }
 
@@ -70,10 +70,10 @@ h2{
 
 .intro {
   font-size: 1.5rem;
-  margin: 2rem 1rem 1rem 1rem;
+  margin: 1rem;
 }
 
-/* .main-grid {
+.main-grid {
   margin: 1rem;
   display: grid;
   gap: 1rem;
@@ -84,53 +84,25 @@ h2{
     "five six"
     "eight seven"
     "nine ten";
-} */
-
-.main-grid {
-  margin: 1rem;
 }
 
 .one {
-  /* grid-area: one; */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  gap: 1rem;
+  grid-area: one;
 }
 
 .two {
-  /* grid-area: two; */
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  gap: 1rem;
+  grid-area: two;
 }
 
 .three {
-  /* grid-area: three; */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  gap: 1rem;
+  grid-area: three;
 }
 
 .four {
-  /* grid-area: four; */
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  gap: 1rem;
+  grid-area: four;
 }
 
-/* .five {
+.five {
   grid-area: five;
 }
 
@@ -152,7 +124,7 @@ h2{
 
 .ten {
   grid-area: ten; 
-} */
+}
 
 img {
   min-width: 15rem;
