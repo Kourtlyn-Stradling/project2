@@ -46,9 +46,8 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   width: 100%;
-  height: auto;
+  height: 30rem;
   margin: 3rem 0;
 }
 
@@ -82,7 +81,7 @@ h2{
     "four three"
     "five six"
     "eight seven"
-    "nine ten"
+    "nine ten";
 }
 
 .one {
