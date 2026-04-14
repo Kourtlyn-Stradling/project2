@@ -18,7 +18,7 @@ body {
 header {
   width: 100vw;
   height: auto;
-  background-color: #FFFBFA;
+  background-color: #E5E6EB;
   padding: 1rem;
 }
 
@@ -27,8 +27,19 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
   gap: 1.5rem;
-  color: #2a2a2a;
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+nav a {
+  color: #2a2a2a;
+  text-decoration: none;
+}
+
+.search {
+  width: 0.75rem;
+  height: auto;
 }
 
 main {
@@ -39,7 +50,7 @@ main {
 h1 {
   font-size: 6rem;
   font-family: "Chiron Sung HK", Times New Roman, serif;
-  margin: -3rem 1rem 1rem 1rem;
+  margin: 1rem;
 }
 
 .background-image {
@@ -73,7 +84,22 @@ h2{
   margin: 1rem;
 }
 
-.main-grid {
+.main-grid section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.main-grid img {
+  min-width: 15rem;
+  max-width: 75%;
+  min-height: auto;
+  max-height: 20rem;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* .main-grid {
   margin: 1rem;
   display: grid;
   gap: 1rem;
@@ -84,55 +110,81 @@ h2{
     "five six"
     "eight seven"
     "nine ten";
-}
+} */
 
 .one {
-  grid-area: one;
+  /* grid-area: one; */
+  grid-column: 1;
 }
 
 .two {
-  grid-area: two;
+  /* grid-area: two; */
+  grid-column: 2;
 }
 
 .three {
-  grid-area: three;
+  /* grid-area: three; */
+  grid-column: 2;
 }
 
 .four {
-  grid-area: four;
+  /* grid-area: four; */
+  grid-column: 1;
 }
 
 .five {
-  grid-area: five;
+  /* grid-area: five; */
+  grid-column: 1;
 }
 
 .six {
-  grid-area: six;
+  /* grid-area: six; */
+  grid-column: 2;
 }
 
 .seven {
-  grid-area: seven;
+  /* grid-area: seven; */
+  grid-column: 2;
 }
 
 .eight {
-  grid-area: eight;
+  /* grid-area: eight; */
+  grid-column: 1;
 }
 
 .nine {
-  grid-area: nine;
+  /* grid-area: nine; */
+  grid-column: 1;
+  font-weight: 700;
+  margin: 1rem;
 }
 
-.ten {
-  grid-area: ten; 
+.top {
+  /* grid-area: ten; */
+  grid-column: 2;
+  font-family: "Albert Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: 0.75rem;
+  justify-self: end;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 0.5rem;
+  border-radius: 5px;
 }
 
-img {
-  min-width: 15rem;
-  max-width: 75%;
-  min-height: auto;
-  max-height: 20rem;
-  object-fit: cover;
-  object-position: 50% 50%;
+.aside {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  font-family: "Albert Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #E5E6EB;
+  color: #2a2a2a;
+  padding: 3rem 2rem;
+  margin-top: 4rem;
 }
 
 
