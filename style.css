@@ -73,7 +73,7 @@ h2{
   margin: 2rem 1rem 1rem 1rem;
 }
 
-.main-grid {
+/* .main-grid {
   margin: 1rem;
   display: grid;
   gap: 1rem;
@@ -84,25 +84,53 @@ h2{
     "five six"
     "eight seven"
     "nine ten";
+} */
+
+.main-grid {
+  margin: 1rem;
 }
 
 .one {
-  grid-area: one;
+  /* grid-area: one; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .two {
-  grid-area: two;
+  /* grid-area: two; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .three {
-  grid-area: three;
+  /* grid-area: three; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .four {
-  grid-area: four;
+  /* grid-area: four; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.five {
+/* .five {
   grid-area: five;
 }
 
@@ -123,7 +151,7 @@ h2{
 }
 
 .ten {
-  grid-area: ten;
+  grid-area: ten; */
 }
 
 img {
