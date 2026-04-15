@@ -15,6 +15,7 @@ body {
   margin: auto;
 }
 
+/* HEADER & NAV STYLING */
 header {
   width: 100vw;
   height: auto;
@@ -47,6 +48,7 @@ nav a {
   height: auto;
 }
 
+/* START OF MAIN CONTENT */
 main {
   width: 80vw;
   margin: auto;
@@ -90,18 +92,21 @@ h2{
   margin: 1rem;
 }
 
+/* GRID */
 .main-grid section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(200px, auto)
+  grid-template-rows: auto;
   gap: 1.5rem;
 }
 
 .main-grid img {
-  min-width: 12rem;
+  /* min-width: 12rem;
   max-width: 100%;
   min-height: auto;
-  max-height: 20rem;
+  max-height: 20rem; */
+  width: 100%;
+  height: auto;
   object-fit: cover;
   object-position: 50% 50%;
 }
@@ -195,6 +200,7 @@ footer {
   margin-top: 4rem;
 }
 
+/* FOOTER */
 footer + p {
   text-transform: uppercase;
   font-size: 2rem;
@@ -203,6 +209,7 @@ footer + p {
   font-family: "Bodoni Moda", Times New Roman, serif;
 }
 
+/* FOOTER GRID */
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr), minmax(12rem, 1fr);
