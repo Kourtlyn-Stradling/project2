@@ -23,7 +23,7 @@ header {
 }
 
 header + img {
-  width: 1.5rem;
+  width: 3rem;
   height: auto;
 }
 
@@ -50,6 +50,7 @@ nav a {
 main {
   width: 80vw;
   margin: auto;
+  background-color: #eff0f3;
 }
 
 h1 {
@@ -194,7 +195,13 @@ footer {
   margin-top: 4rem;
 }
 
-
+footer + p {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.75rem;
+  font-weight: 700;
+  font-family: "Bodoni Moda", Times New Roman, serif;
+}
 
 
 
