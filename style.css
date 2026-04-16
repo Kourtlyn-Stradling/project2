@@ -173,12 +173,13 @@ h2{
 .top {
   order: 10;
   /* BG Image Styling */
-  background-image: url("./assets/top-carrot.png") no-repeat center / contain;
-  /* background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center; */
+  background: #fffffe url("./assets/top-carrot.png") no-repeat 50% 20%;
+  background-size: 1rem;
   /* Font & Position Styling */
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   text-transform: uppercase;
   line-height: 0.75rem;
   justify-self: end;
@@ -187,6 +188,10 @@ h2{
   text-decoration: none;
   font-size: 0.5rem;
   border-radius: 5px;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  color: #2a2a2a;
 }
 
 figcaption {
