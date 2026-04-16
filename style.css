@@ -126,26 +126,11 @@ h2{
   line-height: 1.5rem;
 }
 
-/* .main-grid {
-  margin: 1rem;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); /* Is it responsive for me to use px for the min amount? */
-  grid-template-areas:
-    "one two"
-    "four three"
-    "five six"
-    "eight seven"
-    "nine ten";
-} */
-
 .one {
-  /* grid-area: one; */
   order: 1;
 }
 
 .two {
-  /* grid-area: two; */
   order: 2;
 }
 
@@ -155,37 +140,30 @@ h2{
 }
 
 .three {
-  /* grid-area: three; */
   order: 4;
 }
 
 .four {
-  /* grid-area: four; */
   order: 3;
 }
 
 .five {
-  /* grid-area: five; */
   order: 5;
 }
 
 .six {
-  /* grid-area: six; */
   order: 6;
 }
 
 .seven {
-  /* grid-area: seven; */
   order: 8;
 }
 
 .eight {
-  /* grid-area: eight; */
   order: 7;
 }
 
 .nine {
-  /* grid-area: nine; */
   order: 9;
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -193,8 +171,13 @@ h2{
 }
 
 .top {
-  /* grid-area: ten; */
   order: 10;
+  /* BG Image Styling */
+  background-image: url("./assets/top-carrot.png") no-repeat center / contain;
+  /* background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; */
+  /* Font & Position Styling */
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   line-height: 0.75rem;
