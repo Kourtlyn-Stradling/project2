@@ -136,7 +136,7 @@ h2{
 
 .two img {
   object-fit: contain;
-  object-position: 0%;
+  object-position: top;
 }
 
 .three {
