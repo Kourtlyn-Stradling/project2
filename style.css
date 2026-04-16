@@ -102,7 +102,7 @@ h2{
 }
 
 /* GRID */
-.main-grid section {
+.main-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -136,47 +136,47 @@ h2{
 
 .one {
   /* grid-area: one; */
-  grid-column: 1;
+  order: 1;
 }
 
 .two {
   /* grid-area: two; */
-  grid-column: 2;
+  order: 2;
 }
 
 .three {
   /* grid-area: three; */
-  grid-column: 2;
+  order: 4;
 }
 
 .four {
   /* grid-area: four; */
-  grid-column: 1;
+  order: 3;
 }
 
 .five {
   /* grid-area: five; */
-  grid-column: 1;
+  order: 5;
 }
 
 .six {
   /* grid-area: six; */
-  grid-column: 2;
+  order: 6;
 }
 
 .seven {
   /* grid-area: seven; */
-  grid-column: 2;
+  order: 8;
 }
 
 .eight {
   /* grid-area: eight; */
-  grid-column: 1;
+  order: 7;
 }
 
 .nine {
   /* grid-area: nine; */
-  grid-column: 1;
+  order: 9;
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: 1rem;
@@ -184,7 +184,7 @@ h2{
 
 .top {
   /* grid-area: ten; */
-  grid-column: 2;
+  order: 10;
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   line-height: 0.75rem;
