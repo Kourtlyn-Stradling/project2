@@ -24,7 +24,7 @@ header {
   padding: 1rem;
 }
 
-header + img {
+.logo {
   width: 3rem;
   height: auto;
 }
