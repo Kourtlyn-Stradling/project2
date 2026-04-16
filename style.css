@@ -22,6 +22,8 @@ header {
   height: auto;
   background-color: #E5E6EB;
   padding: 1rem;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
