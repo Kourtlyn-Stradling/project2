@@ -82,7 +82,7 @@ h1 {
 
 h3 {
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
-  font-size: 0.75rem;
+  font-size: 1.5vw;
   text-transform: uppercase;
   letter-spacing: 0.55rem;
   margin: 0.5rem 0;
@@ -91,14 +91,14 @@ h3 {
 
 h2{
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
-  font-size: 5rem;
+  font-size: 10vw;
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
 .intro {
-  font-size: 1.5rem;
-  margin: 1rem 0;
+  font-size: 3vw;
+  margin: 1rem 0 1.5rem 0;
 }
 
 /* GRID */
@@ -106,7 +106,7 @@ h2{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .main-grid img {
@@ -116,9 +116,14 @@ h2{
   max-height: 20rem; */
   display: block;
   max-width: 100%;
-  height: 350px;
+  height: 75vh;
   object-fit: cover;
   object-position: 50% 50%;
+}
+
+.main-grid p {
+  font-size: 1.5vw;
+  line-height: 1.5rem;
 }
 
 /* .main-grid {
@@ -142,6 +147,11 @@ h2{
 .two {
   /* grid-area: two; */
   order: 2;
+}
+
+.two img {
+  object-fit: contain;
+  object-position: 0%;
 }
 
 .three {
