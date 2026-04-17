@@ -164,6 +164,7 @@ h2{
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: 1rem;
+  text-transform: uppercase;
 }
 
 .top {
