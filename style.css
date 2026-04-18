@@ -300,7 +300,7 @@ button {
 }
 
 
-/* Media Query */
+/* Media Query 480px Width or Less */
 @media screen and (max-width: 480px) {
   .logo {
     width: 2rem;
@@ -378,6 +378,30 @@ button {
     
   .nav2 {
     order: 3;
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 0;
+  }
+}
+
+@media screen and (480px <= width <= 660px) {
+  .logo {
+    width: 2rem;
+  }
+    
+  nav a {
+    font-size: 0.6rem;
+  }
+    
+  .footer-grid {
+    grid-template-rows: auto;
+  }
+    
+  .subscribe {
+    margin-top: 0.5rem;
+  }
+    
+  .nav2 {
     grid-column: 1;
     grid-row: 3;
     margin-left: 0;
