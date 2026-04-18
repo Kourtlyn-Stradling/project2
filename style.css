@@ -327,12 +327,39 @@ button {
   text-decoration: underline;
 }
 
-.copyright {
+.sources {
   font-family: "Albert Sans", Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
   margin-top: 2rem;
   padding: 1rem 2rem;
   background-color: #2a2a2a;
+}
+
+.sources a {
+  color: #eff0f3;
+  padding-right: 1rem;
+  text-decoration: none;   
+}
+
+.sources a:link {
+  color: #eff0f3;
+}
+
+.sources a:visited {
+  color: #ff8e3c;
+}
+
+.sources a:hover {
+  color: #eff0f3;
+  font-weight: 700;
+}
+
+.sources a:active {
+  color: #C75300;
+}
+
+.copyright {
+  margin-top: 1rem;
   color: #eff0f3;
 }
 
