@@ -300,5 +300,90 @@ button {
 }
 
 
+/* Media Query */
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 2rem;
+  }
+    
+  nav a {
+    font-size: 0.6rem;
+  }
+    
+  h1 {
+    font-size: 3.5rem;
+  }
+    
+  .background-image {
+    max-height: 20rem;
+  }
+    
+  h3 {
+    font-size: 0.75rem;
+    letter-spacing: 0.4rem;
+  }
+    
+  h2 {
+    font-size: 3rem;
+  }
+    
+  .intro {
+    font-size: 1rem;
+  }
+    
+  .main-grid p {
+    font-size: 0.75rem;
+  }
+    
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+    
+  figcaption {
+    font-size: 0.6rem;
+  }
+    
+  .three {
+    order: 3;
+  }
+    
+  .four {
+    order: 4;
+  }
+    
+  .seven {
+    order: 7;
+  }
+    
+  .eight {
+    order: 8;
+  }
+    
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+    
+  .ad-pro {
+    order: 1;
+    grid-row: 1;
+    margin-bottom: 1rem;
+  }
+    
+  .subscribe {
+    order: 2;
+    grid-row: 2;
+  }
+    
+  .nav2 {
+    order: 3;
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 0;
+  }
+}
+
+
 
 
