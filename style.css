@@ -58,6 +58,24 @@ nav a {
   height: auto;
 }
 
+nav a:link {
+  color: #2a2a2a;  
+}
+
+nav a:visited {
+  color: #C75300;
+}
+
+nav a:hover {
+  color: #C75300;
+  font-weight: 700;
+}
+
+nav a:active {
+  color: #C75300;
+  text-decoration: underline;
+}
+
 /* START OF MAIN CONTENT */
 main {
   width: 80vw;
@@ -289,6 +307,24 @@ button {
   text-transform: uppercase;
   color: #C75300;
   text-decoration: none;
+}
+
+.nav2 a:link {
+  color: #C75300;
+}
+
+.nav2 a:visited {
+  color: #C75300;
+}
+
+.nav2 a:hover {
+  color: #C75300;
+  font-weight: 700;
+}
+
+.nav2 a:active {
+  color: #C75300;
+  text-decoration: underline;
 }
 
 .copyright {
